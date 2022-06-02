@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 body {
-    font-family: 'Arial', Helvetica, sans-serif;
+    font-family: 'Play', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+
+header {
+	color: #ffe0b2;
+}
+
+header > p {
+	color: white;
+}
+
+header {
+	background-color: black;
+}
+
+header {
+    display: block;
+}
+
+#home {
+    background-image: url('https://images.unsplash.com/photo-1495291916458-c12f594151e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+}
+  
+.page-header {
+	height: 70vh;
+	background: center 25% / cover no-repeat;
+}
+.text-center {
+    text-align: center;
+}
+
+.vertical-center {
+    position: relative;
+    top: 80%;
 }
