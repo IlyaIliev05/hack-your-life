@@ -91,6 +91,8 @@ p {
     margin: 0 auto;
 }
 
+/* lifehacks section and image */
+
 #content1 h4 {
     font-size: 120%;
 }
@@ -101,3 +103,51 @@ p {
     margin-right: auto;
     width: 50%;
 }
+
+/* Contact Form */
+
+.lifehack-contact-form {
+    color: #795548;
+    background-color: rgb(255 224 177);
+    max-width: 400px;
+    left: 10%;
+    padding: 30px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.lifehack-contact-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #795548;
+    border-radius: 2px;
+}
+
+.text-input:hover{
+    border-color: #f16c6b;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #795548;
+    display: block;
+    color: #fafafa;
+}
+
+.send-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
