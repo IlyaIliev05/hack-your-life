@@ -112,8 +112,8 @@ p {
     max-width: 400px;
     left: 10%;
     padding: 30px;
-    position: relative;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .lifehack-contact-form > h2 {
