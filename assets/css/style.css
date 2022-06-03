@@ -38,7 +38,34 @@ header {
     text-align: center;
 }
 
+.capital-text {
+    text-transform: uppercase;
+}
+
 .vertical-center {
     position: relative;
     top: 80%;
+}
+
+.color-background {
+    background-color: black;
+}
+
+nav {
+	padding: 0.5rem;
+}
+
+nav > a {
+	text-decoration: none;
+	color: #ffe0b2;
+	margin: 1rem;
+    font-size: 110%;
+}
+
+nav > a:hover {
+	color: silver;
+}
+
+.fa-solid {
+    padding: 3px;
 }
