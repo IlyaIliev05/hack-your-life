@@ -2,7 +2,10 @@
 
 body {
     font-family: 'Play', sans-serif;
+    margin: 0;
 }
+
+/* header styling */
 
 h1 {
     font-size: 6rem;
@@ -16,10 +19,6 @@ header {
 
 header > p {
 	color: white;
-}
-
-header {
-	background-color: black;
 }
 
 header {
@@ -51,6 +50,8 @@ header {
     background-color: black;
 }
 
+/* navigation links */
+
 nav {
 	padding: 0.5rem;
 }
@@ -68,4 +69,24 @@ nav > a:hover {
 
 .fa-solid {
     padding: 3px;
+}
+
+/* thesis */
+
+#lifehack {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+}
+
+#about {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
 }
