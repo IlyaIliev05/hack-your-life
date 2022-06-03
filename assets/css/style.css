@@ -94,7 +94,8 @@ p {
 /* lifehacks section and image */
 
 #content1 h4 {
-    font-size: 120%;
+    font-size: 150%;
+    padding: 0px 0px 0px 5px;
 }
 
 .center {
@@ -103,6 +104,7 @@ p {
     margin-right: auto;
     width: 50%;
 }
+
 
 /* Contact Form */
 
@@ -151,3 +153,24 @@ p {
     color: #f16c6b;
 }
 
+/* footer */
+
+footer{
+    height: 150px;
+}
+
+.socials {
+    text-align: center;
+
+}
+
+.socials li{
+    display: inline;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #795548;
+}
