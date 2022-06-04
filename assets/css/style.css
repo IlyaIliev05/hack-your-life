@@ -95,8 +95,19 @@ p {
 
 #content1 h4 {
     font-size: 150%;
-    padding: 0px 0px 0px 5px;
+    text-decoration: underline;
+    margin: 0 auto;
+    width: 50%;
+
 }
+
+#content1 p {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 5px 30px;
+}
+
 
 .center {
     display: block;
@@ -152,6 +163,11 @@ p {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+textarea {
+    width: 100%;
+}
+
 
 /* footer */
 
