@@ -190,3 +190,11 @@ footer{
     padding: 5%;
     color: #795548;
 }
+
+/* Media Queries for small screen sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+    .vertical-center {
+
+    }
+}
